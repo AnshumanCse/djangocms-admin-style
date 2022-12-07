@@ -61,7 +61,7 @@ body.dashboard {
         .module tr:first-child {
             th,
             td {
-                border-top: 1px solid $gray-lighter;
+                border-top: 2px solid $gray-lighter;
             }
         }
     }
@@ -73,6 +73,8 @@ body.dashboard {
         height: 100%;
         width: 25%;
         padding-top: 135px;
+        justify-content: center;
+        align-item: center;
         margin: 0;
         border-left: 1px solid $gray-lighter;
         background-color: $gray-lightest;
